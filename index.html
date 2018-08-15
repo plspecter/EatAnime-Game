@@ -1,0 +1,77 @@
+<!DOCTYPE hatml>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Click to Eat your Favorite Anime Character!</h1>
+    <h3 id="Sasuke">Sasuke</h3>
+    <h3 id="Akira">Akira</h3>
+    <h3 id="Kamina">Kamina</h3>
+    <h3 id="Kaneki">Kaneki</h3>
+    <h3 id="Shrek">Shrek</h3>
+    <h3 id="Barry">Barry</h3>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var SasukeCounter = 0;
+            var AkiraCounter = 0;
+            var KaminaCounter = 0;
+            var KanekiCounter = 0;
+            var ShrekCounter = 0;
+            var BarryCounter = 0;
+
+            $("#Sasuke").on("click", function () {
+                alert("Sasuke I'll help you find Itatchi!")
+                SasukeCounter++;
+                alert("You ate " + SasukeCounter + " Sasuke! *Kagura proceeded to destroy the world");
+                alert("At least we won't have to deal with filler anymore");
+            });
+
+            $("#Akira").on("click", function () {
+                alert("You have entered the Sabbath club")
+                AkiraCounter++;
+                alert("You ate " + AkiraCounter + " Akira! *Demons proceeded to devour the universe");
+            });
+
+            $("#Kamina").on("click", function () {
+                alert("I'll pierce the heavens with my hunger!")
+                KaminaCounter++;
+                alert("You ate " + KaminaCounter + " Kamina! Well..he dies in the show anyway :(");
+            });
+
+            $("#Kaneki").on("click", function () {
+                alert("*You turned into a goul")
+                KanekiCounter++;
+                alert("You ate " + KanekiCounter + " Kaneki! *you proceed to sip coffee to wash out the taste");
+            });
+
+            $("#Shrek").on("click", function () {
+                alert("Are you sure..")
+                ShrekCounter++;
+                alert("You ate " + ShrekCounter + " a dead meme! Tastes like onions and regret");
+            });
+
+            $("#Barry").on("click", function () {
+                alert("Smells like a weird fanfiction")
+                BarryCounter++;
+                alert("You ate " + BarryCounter + " Barry the bee! Tastes like jazz and beastiality");
+            });
+
+      
+    });
+
+
+    </script>
+</body>
+
+</html>
